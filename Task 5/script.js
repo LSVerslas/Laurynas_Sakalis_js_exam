@@ -22,7 +22,7 @@ function filterAdults(users) {
 }
 
 const dogOwners = filterDogOwners(users);
-console.log(dogOwners);
+// console.log(dogOwners);
 
 const adults = filterAdults(users);
-console.log(adults);
+// console.log(adults);
