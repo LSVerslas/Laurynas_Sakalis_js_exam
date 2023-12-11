@@ -16,5 +16,5 @@ class Movie {
 // const brangu = new Movie('Epinis Brangumas', 'Saulius Dyrikas', 150000000);
 // const papigiai = new Movie('NeEpinis Pigumas', 'Petras Dykuolis', 1000000);
 
-// console.log('Was the movie expensive?', brangu.wasExpensive()); //  true
-// console.log('Was the movie expensive?', papigiai.wasExpensive()); // false
+// console.log('Ar filmas buvo brangus?', brangu.wasExpensive()); //  true
+// console.log('Ar filmas buvo brangus?', papigiai.wasExpensive()); // false
