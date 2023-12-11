@@ -1,10 +1,13 @@
-/* ------------------------------ TASK 1 ----------------------------
-Parašykite JS kodą, kuris leis vartotojui įvesti svorį kilogramais ir
-pamatyti jo pateikto svorio kovertavimą į:
-1. Svarus (lb) | Formulė: lb = kg * 2.2046
-2. Gramus (g) | Formulė: g = kg / 0.0010000
-3. Uncijos (oz) | Formulė: oz = kg * 35.274
+'use strict';
+console.log('script.js file was loaded');
 
-Pastaba: rezultatas turi būti matomas pateikus formą ir atvaizduojamas
-div elemente su id "output" viduje. Gautus atsakymus stilizuokite naudojant CSS;
-------------------------------------------------------------------- */
+document.getElementById('weightForm').addEventListener('submit', function(event) {
+  event.preventDefault();
+  var weight = document.getElementById('weight').value;
+  var lb = weight * 2.2046;
+  var g = weight / 0.0010000;
+  var oz = weight * 35.274;
+  document.getElementById('output').innerHTML = 'Svarai: ' + lb.toFixed(2) + ' lb<br>' +
+                                                 'Gramai: ' + g.toFixed(2) + ' g<br>' +
+                                                 'Uncijos: ' + oz.toFixed(2) + ' oz';
+});
