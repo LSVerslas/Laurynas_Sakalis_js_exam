@@ -1,6 +1,8 @@
 'use strict';
 console.log('script.js file was loaded');
 
+
+
 document.getElementById('showUsers').addEventListener('click', function() {
   fetch('https://api.github.com/users')
       .then(response => response.json())
@@ -15,4 +17,10 @@ document.getElementById('showUsers').addEventListener('click', function() {
           }
           document.getElementById('output').innerHTML = output;
       });
+      
 });
+
+function hideButton() {
+    var button = document.getElementById('showUsers');
+    button.style.display = 'none';
+  }
