@@ -1,10 +1,20 @@
+#output {
+  font-size: 50px;
+  color: red;
+  padding-left: 15px;
+}
+
+#weightForm {
+  font-size: 50px;
+}
+
 /* Resets */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
-    'Lucida Sans', Arial, sans-serif;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
 }
 
 /* Mobile first */
