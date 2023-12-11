@@ -1,5 +1,5 @@
 'use strict';
-console.log('funcExpArr.js file was loaded');
+console.log('script.js file was loaded');
 
 document.getElementById('weightForm').addEventListener('submit', function(event) {
   event.preventDefault();
